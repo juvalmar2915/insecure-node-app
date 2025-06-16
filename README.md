@@ -1,3 +1,5 @@
+[![CI/CD Pipeline](https://github.com/juvalmar2915/insecure-node-app/actions/workflows/main.yml/badge.svg)](https://github.com/juvalmar2915/insecure-node-app/actions/workflows/main.yml)
+
 <div align="center">
 <h1> Insecure Node app </h1>
 </div>
