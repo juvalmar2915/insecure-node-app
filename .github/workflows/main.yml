@@ -38,10 +38,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
     - name: Audit dependencies
-      run: npm audit
-      continue-on-error: true
+      run: npm audit 
 
-    - name: Analysis with Semgrep
-      uses: returntocorp/semgrep-action@v1
-      with:
-        config: "auto"

@@ -1,13 +1,7 @@
 const express = require('express');
 const app = express();
-const cookieParser = require('cookie-parser');
-const csrf = require('csurf');
-
 require('dotenv').config();
 const API_KEY = process.env.API_KEY;
-
-app.use(cookieParser());
-app.use(csrf({ cookie: true }));
 
 app.use(express.json());
 
